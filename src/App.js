@@ -1,10 +1,5 @@
-
-
 import './App.css';
-
 import { GoogleLogin } from 'react-google-login';
-
-
 
 function App() {
 
@@ -12,7 +7,7 @@ function App() {
     console.log(response);
     console.log(response.profileObj)
   }
-  return (
+  return ( 
     <>
       <h1>Login with Google </h1>
       <GoogleLogin
@@ -25,6 +20,7 @@ function App() {
         <span> Login with Google</span>
 
       </GoogleLogin>
+      
     </>
   );
 }
